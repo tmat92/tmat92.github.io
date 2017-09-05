@@ -2,14 +2,21 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  color: #fff000;
+  text-shadow: 2px 2px 2px #000; /*only temp*/
+}
+
 .container{
   max-width: 900px
 }
-/*header styles*/
 
-/*#header {
-  position: fixed;
-}*/
+/*header styles*/
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
 
 #bg-cover {
   background-size: cover;
@@ -21,14 +28,32 @@
   min-height: 100%;
   z-index: -100
 }
-.logo {
-  display: inline-block;
-}
-#header .info {
-  display: inline-block;
-}
+
 /*hero styles*/
 
 .jumbotron {
   background-color: transparent;
+}
+
+.jumbotron p {
+  float: left
+}
+
+.btn-right {
+  margin-left: 5px;
+}
+
+/*projects styles*/
+#projects {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  margin: 50px;
+}
+.image {
+  width: 300px;
 }
