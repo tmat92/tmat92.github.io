@@ -26,7 +26,7 @@ Contact form that you styled -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="keywords" content="web design, website devloper, website builder, design, front end devloper"/>
+  <meta name="keywords" content="web design, website devloper, website builder, design, front end devloper, tyler , developer, matson, johnathon t matson, whos tyler, coding tyler, build my website, html5, css3, fresno, clovis, central valley"/>
   <meta name="description" content="Making your dreams come true, one line of code at a time."/>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,7 @@ Contact form that you styled -->
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">HOME</a></li>
               <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -70,35 +70,105 @@ Contact form that you styled -->
       <h1>Front-end Web Devloper</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus maxime quis placeat mollitia sint asperiores a perferendis eligendi consequatur inventore doloribus, voluptatem. Voluptates est consectetur exercitationem debitis tempore, sed!</p>
       <p><a class="btn btn-primary btn-lg btn-left" href="#" role="button">Looking for a website?</a></p>
-      <p><a class="btn btn-primary btn-lg btn-right" href="#" role="button">Need a Web Devloper?</a></p>
+      <p><a class="btn btn-primary btn-lg btn-right" href="#contact" role="button">Need a Web Devloper?</a></p>
     </div>
     <div id="projects">
       <div class="row projects">
-        <img src="img/pet-store.png" alt="image of site" class="image-responsive image">
-        <div class="pull-right">
+        <img src="img/pet-store.png" alt="image of site" class="image-responsive image pull-left">
+        <div class="project-text">
           <h2>PET STORE</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque molestias, iure ullam et illo magnam.</p>
           <a class="btn btn-primary btn-xs" href="#" role="button">Learn more</a>
         </div>
       </div>
+      <hr>
       <div class="row projects">
-        <img src="img/resturant.png" alt="image of site" class="image-responsive image">
-        <div class="pull-right">
+        <img src="img/resturant.png" alt="image of site" class="image-responsive image pull-left">
+        <div class="project-text">
           <h2>RESTURANT</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore fuga, officiis, possimus quod asperiores pariatur.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore fuga, officiis elit inventore elit.</p>
           <a class="btn btn-primary btn-xs" href="#" role="button">Learn more</a>
         </div>
       </div>
+      <hr>
       <div class="row projects">
-        <img src="img/final-project.png" alt="image of site" class="image-responsive image">
-        <div class="pull-right">
+        <img src="img/final-project.png" alt="image of site" class="image-responsive image pull-left">
+        <div class="project-text">
           <h2>FINAL PROJECT</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci minima, iure laudantium harum fugit quos.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci minima, iure laudantium harum fugit.</p>
           <a class="btn btn-primary btn-xs" href="#" role="button">Learn more</a>
         </div>
       </div>
+      <hr>
     </div>
   </main>
+  <div class="container-fluid map">
+    
+  </div>
+  <div id="contact" class="footer">
+    <div class="container-fluid">
+      <div class="col-sm-6">
+        <img src="img/about-me.jpg" alt="selfie" class="selfie image-responsive">
+        <div class="about">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium repellat quos quibusdam sed, voluptas officia explicabo neque, odio laborum voluptates repudiandae, delectus beatae, quaerat recusandae architecto debitis nesciunt ad molestiae.
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="container-fluid">
+          <div class="row contact-form">
+            <div class="inner contact">
+              <!-- Form Area -->
+              <div class="contact-form">
+                  <!-- Form -->
+                  <form id="contact-us" method="post" action="#">
+                      <!-- Left Inputs -->
+                      <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                          <!-- Name -->
+                          <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                          <!-- Email -->
+                          <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                          <!-- Subject -->
+                          <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                      </div><!-- End Left Inputs -->
+                      <!-- Right Inputs -->
+                      <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                          <!-- Message -->
+                          <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                      </div><!-- End Right Inputs -->
+                      <!-- Bottom Submit -->
+                      <div class="relative fullwidth col-xs-12">
+                          <!-- Send Button -->
+                          <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+                      </div><!-- End Bottom Submit -->
+                      <!-- Clear -->
+                      <div class="clear"></div>
+                  </form>
+
+                  <!-- Your Mail Message -->
+                  <div class="mail-message-area">
+                      <!-- Message -->
+                      <div class="alert gray-bg mail-message not-visible-message">
+                          <strong>Thank You !</strong> Your email has been delivered.
+                      </div>
+                  </div>
+
+              </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row bottom text-center">
+        <div class="col-sm-12 social">
+          <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>&copy; JT DESIGNS 2017</div>
+      </div>
+    </div>
+  </div>
 
 
 <!-- JavaScript -->
