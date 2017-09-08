@@ -15,7 +15,7 @@ body {
 hr {
   border:none;
   height: 20px;
- 	width: 90%;
+ 	width: 70%;
 	height: 50px;
 	margin-top: 0;
 	border-bottom: 1px solid #1f1209;
@@ -23,12 +23,12 @@ hr {
   margin: -50px auto 10px;
 }
 
-/*header styles*/
+/*---------header styles---------*/
 .navbar-inverse {
     background-color: transparent;
     border: none;
 }
-
+/*----------header styles end-------------*/
 #bg-cover {
   background-size: cover;
   background-image: url(../img/background.jpg);
@@ -40,7 +40,7 @@ hr {
   z-index: -100
 }
 
-/*hero styles*/
+/*---------hero styles-----------*/
 
 .jumbotron {
   background-color: transparent;
@@ -53,8 +53,8 @@ hr {
 .btn-right {
   margin-left: 5px;
 }
-
-/*projects styles*/
+/*----------hero style ends--------*/
+/*-----------projects styles----------*/
 #projects {
   background-color: #fff;
   display: flex;
@@ -69,21 +69,24 @@ hr {
   width: 400px;
   margin-right: 50px;
 }
-/*map styles*/
-.map {
-  width: 300px;
 }
-/*footer styles*/
-.footer {
+/*--------footer styles starts--------*/
+.bottom-part {
   background-color: #eee;
 }
+
 .selfie {
   margin-left: 38%;
   width: 100px;
 }
+
+.about {
+  margin-bottom: 20px;
+}
 /*      contact form styles starts      */
 #contact{
    padding:10px 0 10px;
+   background-color: #eee;
  }
 
  .contact-text{
@@ -172,6 +175,9 @@ hr {
  }
 
 /* Send Button Styles */
+ .send {
+   margin-bottom: 10px;
+ }
 
  .form-btn{
    width:180px;
@@ -210,10 +216,11 @@ input {
 }
 /*     contact form styles ends    */
 .bottom {
-  height: 150px;
+  height: 160px;
   background-color: #000;
 }
 
 .fa {
   margin: 2%;
 }
+/*-----------footer styles end----------*/
