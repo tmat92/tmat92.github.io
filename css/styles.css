@@ -4,6 +4,7 @@
 }
 
 body {
+  position: relative;
   color: #fff000;
   text-shadow: 2px 2px 2px #000; /*only temp*/
 }
