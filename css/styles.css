@@ -76,9 +76,12 @@ hr {
   background-color: #fff;
 }
 
+
+
 .work {
   padding: 40px 40px;
   min-height: 1100px;
+  min-width: 110%;
 }
 
 .projects {
