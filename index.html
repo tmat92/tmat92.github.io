@@ -21,6 +21,18 @@ Contact form that you styled -->
   <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
+  <!-- google-analytics starts -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-103806332-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- google-analytics ends -->
   <!-- nav bar and header section -->
   <header class="header-container secondary-text">
     <div id="bg-cover"></div>
@@ -53,67 +65,67 @@ Contact form that you styled -->
   <!-- nav bar and header section ends -->
   <main>
     <!-- hero section starts -->
-    <div class="container jumbotron" id="home">
+    <div class="container text-center jumbotron" id="home">
       <h1 class="primary-text">Front-end Web Devloper</h1>
       <p class="secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus maxime quis placeat mollitia sint asperiores a perferendis eligendi consequatur inventore doloribus, voluptatem. Voluptates est consectetur exercitationem debitis tempore, sed!</p>
-      <p><a target="_blank" class="btn btn-primary btn-lg btn-left" href="https://goo.gl/forms/FM4FE1PAMtraDNA63" role="button">Looking for a website?</a></p>
-      <p><a class="btn btn-primary btn-lg btn-right" href="#contact" role="button">Need a Web Devloper?</a></p>
+      <a target="_blank" class="btn btn-primary btn-lg btn-left" href="https://goo.gl/forms/FM4FE1PAMtraDNA63" role="button">Looking for a website?</a>
+      <a class="btn btn-primary btn-lg btn-right" href="mailto:jmatson92@gmail.com" target="_top"role="button">Need a Web Devloper?</a> <!-- added a mail to until i can figure submit in forms out -->
     </div>
     <!-- hero section ends -->
     <!-- project section starts -->
-    <div id="projects">
-      <div class="row projects">
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-              <img src="img/pet-store.png" alt="...">
-            </a>
-          </div>
-          <div class="project-text">
-            <h2 class="primary-text">PET STORE</h2>
-            <p class="secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque molestias, iure ullam et illo magnam.</p>
-            <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/pet-store/" role="button">Visit Site</a>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row projects">
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-              <img src="img/resturant.png" alt="...">
-            </a>
-          </div>
-          <div class="project-text">
-            <h2 class="primary-text">RESTURANT</h2>
-            <p class+"secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore fuga, officiis elit inventore elit.</p>
-            <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/resturante-2017/" role="button">Visit Site</a>
+    <div id="projects" class="container-fluid text-center">
+      <div class="container work">
+        <div class="row projects">
+          <div class="row">
+            <div class="col-xs-12 col-md-5">
+              <a href="#" class="thumbnail">
+                <img class="img-responsive" src="img/pet-store.png" alt="...">
+              </a>
+            </div>
+            <div class="project-text">
+              <h2 class="primary-text">PET STORE</h2>
+              <p class="secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque molestias, iure ullam et illo magnam.</p>
+              <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/pet-store/" role="button">Visit Site</a>
+            </div>
           </div>
         </div>
-        <!-- <img src="img/resturant.png" alt="image of site" class="image-responsive image pull-left"> -->
-
-      </div>
-      <hr>
-      <div class="row projects">
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-              <img src="img/final-project.png" alt="...">
-            </a>
-          </div>
-          <div class="project-text">
-            <h2 class="primary-text">FINAL PROJECT</h2>
-            <p class+"secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci minima, iure laudantium harum fugit.</p>
-            <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/final-project/" role="button">Visit Site</a>
+        <hr>
+        <div class="row projects">
+          <div class="row">
+            <div class="col-xs-12 col-md-5">
+              <a href="#" class="thumbnail">
+                <img src="img/resturant.png" alt="...">
+              </a>
+            </div>
+            <div class="project-text">
+              <h2 class="primary-text">RESTURANT</h2>
+              <p class+"secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore fuga, officiis elit inventore elit.</p>
+              <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/resturante-2017/" role="button">Visit Site</a>
+            </div>
           </div>
         </div>
+        <hr>
+        <div class="row projects">
+          <div class="row">
+            <div class="col-xs-12 col-md-5">
+              <a href="#" class="thumbnail">
+                <img src="img/final-project.png" alt="...">
+              </a>
+            </div>
+            <div class="project-text">
+              <h2 class="primary-text">FINAL PROJECT</h2>
+              <p class+"secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci minima, iure laudantium harum fugit.</p>
+              <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/final-project/" role="button">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        <hr>
       </div>
-      <hr>
-    </div>
+  </div>
     <!-- project section ends -->
     </main>
   <!-- footer and contact starts -->
-  <footer id="contact" class="bottom-part">
+  <div id="contact" class="bottom-part">
     <div class="container-fluid">
       <div class="col-sm-6">
         <img src="img/about-me.jpg" alt="selfie" class="selfie image-responsive">
@@ -169,17 +181,18 @@ Contact form that you styled -->
       <div class="row bottom text-center">
         <div class="col-sm-12 social">
           <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-          <a target="_blank" href="mailto:jmatson92@gmail.com" target="_top"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+          <a href="mailto:jmatson92@gmail.com" target="_top"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
           <a target="_blank" href="https://github.com/tmat92"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
           <a target="_blank" href="https://www.linkedin.com/in/johnathon-matson-43b25b136/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
         </div>
         <div class="secondary-text copy">&copy; JT DESIGNS 2017</div>
       </div>
-    </footer>
+    </div>
   </div>
   <!-- footer and contact end -->
 <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

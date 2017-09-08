@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto')
 
 /*universals*/
+
 * {
   box-sizing: border-box;
 }
@@ -18,13 +19,13 @@ body {
   text-shadow: 2px 2px 2px #000; /*only temp*/
 }
 
+
 .container{
   max-width: 900px
 }
 
 hr {
   border:none;
-  height: 20px;
  	width: 70%;
 	height: 50px;
 	margin-top: 0;
@@ -35,10 +36,10 @@ hr {
 
 /*---------header styles---------*/
 .navbar-inverse {
-    background-color: transparent;
+    background-color: rgba(0,255,255, .3);
     border: none;
 }
-/*----------header styles end-------------*/
+
 #bg-cover {
   background-size: cover;
   background-image: url(../img/background.jpg);
@@ -49,56 +50,62 @@ hr {
   min-height: 100%;
   z-index: -100
 }
+/*----------header styles end-------------*/
 
 /*---------hero styles-----------*/
 
 .jumbotron {
   background-color: transparent;
+  height:650px;
+  position: relative;
+  top: 140px;
 }
 
 .jumbotron>h1 {
   font-weight: bold;
 }
-.jumbotron>p {
-  float: left;
-}
 
-.btn-right {
-  margin-left: 5px;
+.btn-right, .btn-left {
+  margin-top: 5px;
 }
 /*----------hero style ends--------*/
+
 /*-----------projects styles----------*/
+
 #projects {
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.work {
+  padding: 40px 40px;
+  min-height: 1100px;
 }
 
 .projects {
-  margin: 50px;
+  margin: 100px;
 }
-.image {
-  width: 400px;
-  margin-right: 50px;
-}
-}
+
+
 /*--------footer styles starts--------*/
 .bottom-part {
   background-color: #eee;
 }
 
 .selfie {
+  border-radius: 10px;
   margin-left: 38%;
+  margin-bottom: 10px;
   width: 100px;
 }
 
 .about {
   margin-bottom: 20px;
 }
+
 /*      contact form styles starts      */
+
 #contact{
-   padding:10px 0 10px;
+   padding:10px 0px 0px 10px;
    background-color: #eee;
  }
 
@@ -227,9 +234,11 @@ input {
    position: relative;
    z-index: 9999;
 }
+
 /*     contact form styles ends    */
+
 .bottom {
-  height: 160px;
+  min-height: 180px;
   background-color: #000;
 }
 
@@ -240,4 +249,5 @@ input {
 .copy {
   font-weight: 700;
 }
+
 /*-----------footer styles end----------*/
