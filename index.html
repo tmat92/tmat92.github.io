@@ -20,12 +20,12 @@ Contact form that you styled -->
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
   <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
   <!-- nav bar and header section -->
   <header class="header-container">
     <div id="bg-cover"></div>
     <div id="header">
-      <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" id="navbar-example">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -41,7 +41,7 @@ Contact form that you styled -->
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">HOME</a></li>
+              <li><a href="#home">HOME</a></li>
               <li><a href="#projects">PROJECTS</a></li>
               <li><a href="#contact">CONTACT</a></li>
             </ul>
@@ -53,7 +53,7 @@ Contact form that you styled -->
   <!-- nav bar and header section ends -->
   <main>
     <!-- hero section starts -->
-    <div class="container jumbotron">
+    <div class="container jumbotron" id="home">
       <h1>Front-end Web Devloper</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus maxime quis placeat mollitia sint asperiores a perferendis eligendi consequatur inventore doloribus, voluptatem. Voluptates est consectetur exercitationem debitis tempore, sed!</p>
       <p><a class="btn btn-primary btn-lg btn-left" href="https://goo.gl/forms/FM4FE1PAMtraDNA63" role="button">Looking for a website?</a></p>
