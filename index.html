@@ -1,26 +1,10 @@
 <!-- Basics
-Readability/intelligibility of Code
-File/Directory structure
-Proper Indentation/Nested Code
-Everything is linked correctly (i.e. CDNs, local files, meta tags, link tags, etc.)
-Did you incorporate Bootstrap correctly? (i.e. Is the Grid System properly implemented, what components did you use and why did you use those components?)
-Is your site responsive?
 At least one media query
 
 Github
-Must have a repository for your portfolio
 Must add me as a contributor to your repository
-Must have gh-pages branch
-Must have at least two pull requests that have been fully and correctly merged back into gh-pages branch
-BONUS: have your portfolio hosted at [username].github.io
 
 Design
-Nav/Navbar
-Jumbotron or Carousel
-Accordion or thumbnails
-At least three pages-worth of intelligable, coherent content that you created
-Must include link to at least 1 site you've created
-Use at least 4 social media/font awesome icons
 Use at least 2 Google Fonts
 Contact form that you styled -->
 <!DOCTYPE html>
@@ -37,6 +21,7 @@ Contact form that you styled -->
   <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
 <body>
+  <!-- nav bar and header section -->
   <header class="header-container">
     <div id="bg-cover"></div>
     <div id="header">
@@ -50,7 +35,7 @@ Contact form that you styled -->
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">TMAT<!--<img src="img/logo-shadow.png" alt="logo">--></a>
+            <a class="navbar-brand" href="#">TMAT</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,47 +50,70 @@ Contact form that you styled -->
       </nav>
     </div>
   </header>
+  <!-- nav bar and header section ends -->
   <main>
+    <!-- hero section starts -->
     <div class="container jumbotron">
       <h1>Front-end Web Devloper</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus maxime quis placeat mollitia sint asperiores a perferendis eligendi consequatur inventore doloribus, voluptatem. Voluptates est consectetur exercitationem debitis tempore, sed!</p>
-      <p><a class="btn btn-primary btn-lg btn-left" href="#" role="button">Looking for a website?</a></p>
+      <p><a class="btn btn-primary btn-lg btn-left" href="https://goo.gl/forms/FM4FE1PAMtraDNA63" role="button">Looking for a website?</a></p>
       <p><a class="btn btn-primary btn-lg btn-right" href="#contact" role="button">Need a Web Devloper?</a></p>
     </div>
+    <!-- hero section ends -->
+    <!-- project section starts -->
     <div id="projects">
       <div class="row projects">
-        <img src="img/pet-store.png" alt="image of site" class="image-responsive image pull-left">
-        <div class="project-text">
-          <h2>PET STORE</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque molestias, iure ullam et illo magnam.</p>
-          <a class="btn btn-primary btn-xs" href="#" role="button">Learn more</a>
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img src="img/pet-store.png" alt="...">
+            </a>
+          </div>
+          <div class="project-text">
+            <h2>PET STORE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque molestias, iure ullam et illo magnam.</p>
+            <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/pet-store/" role="button">Learn more</a>
+          </div>
         </div>
       </div>
       <hr>
       <div class="row projects">
-        <img src="img/resturant.png" alt="image of site" class="image-responsive image pull-left">
-        <div class="project-text">
-          <h2>RESTURANT</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore fuga, officiis elit inventore elit.</p>
-          <a class="btn btn-primary btn-xs" href="#" role="button">Learn more</a>
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img src="img/resturant.png" alt="...">
+            </a>
+          </div>
+          <div class="project-text">
+            <h2>RESTURANT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto inventore fuga, officiis elit inventore elit.</p>
+            <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/resturante-2017/" role="button">Learn more</a>
+          </div>
         </div>
+        <!-- <img src="img/resturant.png" alt="image of site" class="image-responsive image pull-left"> -->
+
       </div>
       <hr>
       <div class="row projects">
-        <img src="img/final-project.png" alt="image of site" class="image-responsive image pull-left">
-        <div class="project-text">
-          <h2>FINAL PROJECT</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci minima, iure laudantium harum fugit.</p>
-          <a class="btn btn-primary btn-xs" href="#" role="button">Learn more</a>
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img src="img/final-project.png" alt="...">
+            </a>
+          </div>
+          <div class="project-text">
+            <h2>FINAL PROJECT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum adipisci minima, iure laudantium harum fugit.</p>
+            <a class="btn btn-primary btn-xs" href="https://tmat92.github.io/final-project/" role="button">Learn more</a>
+          </div>
         </div>
       </div>
       <hr>
     </div>
-  </main>
-  <div class="container-fluid map">
-    
-  </div>
-  <div id="contact" class="footer">
+    <!-- project section ends -->
+    </main>
+  <!-- footer and contact starts -->
+  <footer id="contact" class="bottom-part">
     <div class="container-fluid">
       <div class="col-sm-6">
         <img src="img/about-me.jpg" alt="selfie" class="selfie image-responsive">
@@ -136,7 +144,7 @@ Contact form that you styled -->
                           <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
                       </div><!-- End Right Inputs -->
                       <!-- Bottom Submit -->
-                      <div class="relative fullwidth col-xs-12">
+                      <div class="relative fullwidth col-xs-12 send">
                           <!-- Send Button -->
                           <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
                       </div><!-- End Bottom Submit -->
@@ -160,17 +168,16 @@ Contact form that you styled -->
       </div>
       <div class="row bottom text-center">
         <div class="col-sm-12 social">
-          <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+          <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="mailto:jmatson92@gmail.com" target="_top"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://github.com/tmat92"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/johnathon-matson-43b25b136/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
         </div>
         <div>&copy; JT DESIGNS 2017</div>
       </div>
-    </div>
+    </footer>
   </div>
-
-
+  <!-- footer and contact end -->
 <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
