@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto')
+
 /*universals*/
 * {
   box-sizing: border-box;
+}
+.primary-text{
+  font-family: 'Roboto', sans-serif;
+}
+
+.secondary-text {
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -47,8 +56,11 @@ hr {
   background-color: transparent;
 }
 
-.jumbotron p {
-  float: left
+.jumbotron>h1 {
+  font-weight: bold;
+}
+.jumbotron>p {
+  float: left;
 }
 
 .btn-right {
@@ -223,5 +235,9 @@ input {
 
 .fa {
   margin: 2%;
+}
+
+.copy {
+  font-weight: 700;
 }
 /*-----------footer styles end----------*/
