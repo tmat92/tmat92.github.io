@@ -12,11 +12,26 @@
 .secondary-text {
   font-family: 'Lato', sans-serif;
 }
+.text-shadow {
+  text-shadow: 1px 1px 1px #000;
+}
+.black-text {
+  color: #000;
+}
+a {
+  color: #f0ad4e;
+}
+a:focus, a:hover {
+  color:#EC971F
+  }
+
+.btn {
+  border: none;
+}
 
 body {
   position: relative;
-  color: #fff000;
-  text-shadow: 2px 2px 2px #000; /*only temp*/
+  color: #fff;
 }
 
 
@@ -36,7 +51,7 @@ hr {
 
 /*---------header styles---------*/
 .navbar-inverse {
-    background-color: rgba(0,255,255, .3);
+    background-color: rgba(240, 245, 249, .7);
     border: none;
 }
 
@@ -73,7 +88,11 @@ hr {
 /*-----------projects styles----------*/
 
 #projects {
-  background-color: #fff;
+  background-color: #d9dee8;
+}
+
+#projects>.container-fluid {
+  min-width: 100%;
 }
 
 .work {
@@ -89,15 +108,21 @@ hr {
 
 /*--------footer styles starts--------*/
 .bottom-part {
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 
 .selfie {
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   margin-left: 38%;
   margin-bottom: 10px;
   width: 100px;
 }
+
+.fa {
+  margin: 1%;
+}
+
+
 
 .about {
   margin-bottom: 20px;
@@ -107,7 +132,7 @@ hr {
 
 #contact{
    padding:10px 0px 0px 10px;
-   background-color: #eee;
+   background-color: #52616a;
  }
 
  .contact-text{
@@ -145,7 +170,7 @@ hr {
  .form{
    width: 100%;
    padding: 15px;
-   background:#f8f8f8;
+   background:#f0f5f9;
    border:1px solid rgba(0, 0, 0, 0.075);
    margin-bottom:25px;
    color:#727272 !important;
@@ -206,7 +231,7 @@ hr {
    height: auto;
    padding:15px;
    color:#fff;
-   background:#8BC3A3;
+   background:#f0ad4e;
    border:none;
    border-radius:3px;
    outline: none;
@@ -214,6 +239,7 @@ hr {
    -moz-transition: all 0.3s;
    transition: all 0.3s;
    margin:auto;
+   text-shadow: 1px 1px 1px #000;
    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
@@ -239,12 +265,9 @@ input {
 /*     contact form styles ends    */
 
 .bottom {
-  min-height: 180px;
-  background-color: #000;
-}
-
-.fa {
-  margin: 2%;
+  min-height: 80px;
+  padding: 3%;
+  background-color: #1e2022;
 }
 
 .copy {
