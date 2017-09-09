@@ -36,6 +36,10 @@ a:focus, a:hover {
   transition: .3s;
 }
 
+h1,h2 {
+  font-weight: bold;
+}
+
 body {
   line-height: 1.9;
   position: relative;
@@ -97,9 +101,6 @@ img {
   /*z-index: -1;*/
 }
 
-.jumbotron>h1 {
-  font-weight: bold;
-}
 
 .fadein-fast {
   animation: fadein 2s;
@@ -245,13 +246,13 @@ img {
  }
 
  .form:hover{
-   border:1px solid #8BC3A3;
+   border:1px solid #fa9d57;
  }
 
  .form:focus{
    color: white;
    outline: none;
-   border:1px solid #8BC3A3;
+   border:1px solid #fa9d57;
  }
 
  .textarea{
@@ -264,7 +265,7 @@ img {
 
  .button{
    padding:8px 12px;
-   background:#0A5175;
+   background:#fa9d57;
    display: block;
    width:120px;
    margin:10px 0 0px 0;
@@ -280,7 +281,7 @@ img {
  }
 
  .button:hover{
-   background:#8BC3A3;
+   background:#fa9d57;
    color:white;
  }
 
@@ -310,7 +311,7 @@ img {
  }
 
  .form-btn:hover{
-   background:#111;
+   background:#fa9d57;
    color: white;
    border:none;
  }
