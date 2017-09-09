@@ -76,16 +76,14 @@ hr {
   background-color: #fff;
 }
 
-
-
 .work {
-  padding: 40px 40px;
+  padding: 50px 20px;
   min-height: 1100px;
-  min-width: 110%;
+  /*min-width: 107%;*/
 }
 
 .projects {
-  margin: 100px;
+  margin: 110px;
 }
 
 
