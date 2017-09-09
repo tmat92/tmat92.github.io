@@ -22,7 +22,8 @@ a {
   color: #37cef3;
 }
 a:focus, a:hover {
-  color:#EC971F
+  color:#EC971F;
+  text-decoration: none;
   }
 
 .btn {
@@ -75,7 +76,7 @@ img {
   background-color: #fa9d57;
 }
 
-#bg-cover {
+.bg-cover {
   background-size: cover;
   background-image: url(../img/background.jpg);
   position: fixed;
@@ -155,19 +156,20 @@ img {
   background-color: #d9dee8;
 }
 
-#projects>.container-fluid {
+/*#projects>.container-fluid {
   min-width: 100%;
-}
+}*/
 
 
 .work {
   padding: 50px 20px;
   min-height: 1100px;
-  /*min-width: 107%;*/
+  /*min-width: 120%;*/
+  background-color: #d9dee8;
 }
 
 .projects {
-  margin: 110px;
+  margin: 100px;
 }
 
 
