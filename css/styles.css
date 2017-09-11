@@ -125,7 +125,7 @@ img {
 
 @keyframes push-l {
   0% {
-    transform: translateX(-600px);
+    transform: translateX(-800px);
   }
 
   100% {
@@ -135,7 +135,7 @@ img {
 
 @keyframes push-r {
   0% {
-    transform: translateX(600px);
+    transform: translateX(800px);
   }
 
   100% {
@@ -210,7 +210,7 @@ img {
 
 /*      contact form styles starts      */
 
-#contact{
+.contact{
    padding:10px 0px 0px 10px;
    background-color: #52616a;
  }
