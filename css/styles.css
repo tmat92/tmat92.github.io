@@ -27,6 +27,7 @@
 }
 
 a {
+  transition: .4s;
   color: #37cef3;
 }
 
@@ -36,6 +37,7 @@ a:focus, a:hover {
   }
 
 .btn {
+  transition: all 0.4s;
   border: none;
   background-color: #37cef3;
 }
@@ -43,7 +45,6 @@ a:focus, a:hover {
 .btn-primary:hover {
   border: none;
   background-color: #fa9d57;
-  transition: .3s;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -65,7 +66,7 @@ body {
 
 hr {
   border:none;
- 	width: 70%;
+ 	width: 83%;
 	height: 50px;
 	margin-top: 0;
 	border-bottom: 1px solid #1f1209;
@@ -113,6 +114,36 @@ img {
   /*z-index: -1;*/
 }
 
+/*.welcome {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end);
+}
+
+.goodbye {
+  animation: type2 8s steps(60, end);
+}
+
+span:nth-child(2){
+  animation: blink 1s infinite;
+}
+
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+*/
 
 .fadein-fast {
   animation: fadein 2s;
@@ -168,15 +199,11 @@ img {
   line-height: 2;
 }
 
-/*#projects>.container-fluid {
-  min-width: 100%;
-}*/
-
 
 .work {
-  padding: 50px 20px;
+  padding: 50px 0px;
   min-height: 1100px;
-  /*min-width: 120%;*/
+  min-width: 100%;
   background-color: #d9dee8;
 }
 
@@ -186,9 +213,6 @@ img {
 
 
 /*--------footer styles starts--------*/
-.bottom-part {
-  /*background-color: #eee;*/
-}
 
 .selfie {
   /*border-radius: 10px;*/
@@ -201,8 +225,6 @@ img {
   margin: 1%;
 }
 
-
-
 .about {
   margin-bottom: 20px;
   line-height: 2;
@@ -211,7 +233,7 @@ img {
 /*      contact form styles starts      */
 
 .contact{
-   padding:10px 0px 0px 10px;
+   padding: 4%;
    background-color: #52616a;
  }
 
@@ -320,7 +342,6 @@ img {
    -moz-transition: all 0.3s;
    transition: all 0.3s;
    margin:auto;
-   text-shadow: 1px 1px 1px #000;
    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
@@ -344,6 +365,47 @@ input {
 }
 
 /*     contact form styles ends    */
+
+.icon:hover {
+  margin: 0 auto;
+  color: #37cef3;
+  animation-name: change;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.rotate:hover {
+  animation: spin 1s infinite;
+
+}
+
+@keyframes spin {
+  from {transform:rotate(360deg)}
+}
+
+/*@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}*/
+
+@keyframes change {
+  0% {
+    color: #37cef3;
+    /*border-radius: 100%;*/
+  }
+  50% {
+    color: #fa9d57;
+  }
+  100% {
+    /*transform: scale(1.5);*/
+    color: #b0eab7;
+  }
+}
 
 .bottom {
   min-height: 80px;
