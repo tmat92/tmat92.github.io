@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.border-ra {
+  border-radius: 10px;
+}
+
 .row {
   margin-right: 15px;
 }
@@ -74,9 +78,9 @@ hr {
   margin: -50px auto 10px;
 }
 
-img {
+/*img {
   margin-bottom: 20px;
-}
+}*/
 
 /*---------header styles---------*/
 .navbar-inverse {
