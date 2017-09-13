@@ -86,11 +86,16 @@ hr {
 .navbar-inverse {
     background-color: rgba(240, 245, 249, .7);
     border: none;
+    font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: #fa9d57;
 }
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #fa9d57;
+}
+
 
 .bg-cover {
   background-size: cover;
@@ -105,6 +110,7 @@ hr {
 
 .logo {
   font-weight: bold;
+  animation: change 10s infinite;
 }
 /*----------header styles end-------------*/
 
@@ -400,14 +406,18 @@ input {
 @keyframes change {
   0% {
     color: #37cef3;
-    /*border-radius: 100%;*/
+  }
+  25% {
+    color: #b0eab7;
   }
   50% {
     color: #fa9d57;
   }
-  100% {
-    /*transform: scale(1.5);*/
+  75% {
     color: #b0eab7;
+  }
+  100% {
+    color: #37cef3;
   }
 }
 
