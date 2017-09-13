@@ -78,9 +78,6 @@ hr {
   margin: -50px auto 10px;
 }
 
-/*img {
-  margin-bottom: 20px;
-}*/
 
 /*---------header styles---------*/
 .navbar-inverse {
@@ -123,37 +120,6 @@ hr {
   top: 140px;
   /*z-index: -1;*/
 }
-
-/*.welcome {
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(60, end);
-}
-
-.goodbye {
-  animation: type2 8s steps(60, end);
-}
-
-span:nth-child(2){
-  animation: blink 1s infinite;
-}
-
-
-@keyframes type{
-  from { width: 0; }
-}
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-*/
 
 .fadein-fast {
   animation: fadein 2s;
@@ -348,6 +314,7 @@ span:nth-child(2){
    border:none;
    border-radius:3px;
    outline: none;
+   font-weight: bold;
    -webkit-transition: all 0.3s;
    -moz-transition: all 0.3s;
    transition: all 0.3s;
@@ -391,7 +358,6 @@ input {
 
 .rotate:hover {
   animation: spin 1s infinite;
-
 }
 
 @keyframes spin {
