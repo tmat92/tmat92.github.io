@@ -57,6 +57,7 @@ a:focus, a:hover {
 
 h1,h2 {
   font-weight: bold;
+  /*word-wrap: break-word;*/
 }
 
 body {
@@ -409,3 +410,9 @@ input {
 }
 
 /*-----------footer styles end----------*/
+@media screen and (max-width: 500px) {
+  .projectimg {
+    min-width: 200px;
+
+  }
+}
